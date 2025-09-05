@@ -10,7 +10,15 @@ This repo tracks my 12-week roadmap with deliverables.
 
 ## Progress
 - [ ] Week 0: Setup & orientation
-- [x] Week 1: Install CODESYS + first project screenshot (in docs/)
-- [ ] Week 2: Timers & Counters
-- [ ] Week 3: Traffic Light (Ladder + ST)
-...
+  - [x] Day 1: Installed CODESYS and created a new Standard PLC project.
+  - [x] Day 2: Installed OpenPLC Editor and created a sample project.
+  - [x] Day 3: Created GitHub repo PLC-Learning with folders projects/, hardware/, docs/.
+  - [x] Day 4: Built a 12-week study plan in Notion/Excel with checkboxes.
+  - [ ] Day 5: Watched PLC primer + skimmed IEC 61131-3, wrote summary notes....
+  - [ ] Day 6: Mini-Test (End of Week)
+
+  .
+  .
+  .
+  .
+  
