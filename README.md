@@ -9,7 +9,7 @@ This repo tracks my 12-week roadmap with deliverables.
 - docs/ – Notes, screenshots, reports
 
 ## Progress
-- [ ] Week 1: Install CODESYS + first project screenshot (in docs/)
+- [x] Week 1: Install CODESYS + first project screenshot (in docs/)
 - [ ] Week 2: Timers & Counters
 - [ ] Week 3: Traffic Light (Ladder + ST)
 ...
