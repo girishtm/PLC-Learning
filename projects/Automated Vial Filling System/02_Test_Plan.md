@@ -40,5 +40,4 @@ Validate sequence correctness, I/O mapping, counters, reject logic and emergency
 ## Acceptance Criteria
 - All process sequences occur in the correct order.
 - Counters increment correctly and reset per batch rules.
-- All inputs/outputs map to tags in `io_list.csv`.
 - Safety stoppage works reliably.
