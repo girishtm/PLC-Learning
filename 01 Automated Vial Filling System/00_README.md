@@ -30,12 +30,12 @@ It covers critical steps from **sterile environment monitoring** to **packaging*
 ## 🧩 File Structure
 | File | Description |
 - `00 README.md` | This documentation file |
-- `01 Safety_Assumptions` | projects/Automated Vial Filling System/01_Safety_Assumptions.md | Contains system-level safety assumptions and conditions |
-- `02 Test_Plan` | projects/Automated Vial Filling System/02_Test_Plan.md | Detailed plan for testing each PLC logic stage |
-- `03_Flowchart.png` | projects/Automated Vial Filling System/03_Flowchart.png | Process flowchart showing each automation stage |
-- `04_Ladder_Diagram.pdf` | projects/Automated Vial Filling System/04_Ladder_Diagram.pdf | Ladder logic screenshots and tag references |
-- `05_Simulation.md` | projects/Automated Vial Filling System/05_Simulation.md | Screen recording of simulation in PLC simulator |
-- `06_Simulation_Explanation.md` | projects/Automated Vial Filling System/06_Simulation_Explanation.md | Step-by-step explanation of simulation sequence |
+- `01 Safety_Assumptions` | Contains system-level safety assumptions and conditions |
+- `02 Test_Plan` | Detailed plan for testing each PLC logic stage |
+- `03_Flowchart.png` | Process flowchart showing each automation stage |
+- `04_Ladder_Diagram.pdf` | Ladder logic screenshots and tag references |
+- `05_Simulation.md` | Screen recording of simulation in PLC simulator |
+- `06_Simulation_Explanation.md` | Step-by-step explanation of simulation sequence |
 
 ---
 
