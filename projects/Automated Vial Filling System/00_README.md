@@ -29,7 +29,7 @@ It covers critical steps from **sterile environment monitoring** to **packaging*
 
 ## 🧩 File Structure
 | File | Address | Description |
-- `00 README.md` | projects/Automated Vial Filling System/00_README.md | This documentation file |
+- `00 README.md` | https://github.com/girishtm/PLC-Learning/blob/main/projects/Automated%20Vial%20Filling%20System/00_README.md | This documentation file |
 - `01 Safety_Assumptions` | projects/Automated Vial Filling System/01_Safety_Assumptions.md | Contains system-level safety assumptions and conditions |
 - `02 Test_Plan` | projects/Automated Vial Filling System/02_Test_Plan.md | Detailed plan for testing each PLC logic stage |
 - `03_Flowchart.png` | projects/Automated Vial Filling System/03_Flowchart.png | Process flowchart showing each automation stage |
