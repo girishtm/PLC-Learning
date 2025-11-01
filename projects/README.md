@@ -40,4 +40,4 @@ MIT License — see `LICENSE`
 ## Contact
 Author: Girish Thammadahalli Maruhti. 
 girishtm44@gmail.com
-This folder will contain my PLC project files (traffic light, conveyor, etc.).
+This folder will contain my PLC project files..
