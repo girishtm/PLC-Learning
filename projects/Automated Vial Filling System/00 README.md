@@ -3,6 +3,9 @@
 **Course:** PLC Programming Training (Internshala)  
 **Status:** Completed
 
+## Disclaimer: 
+This project is an educational simulation for PLC training only. It is not certified for production or regulatory use. Do not use this design in a live vaccine line without qualified engineering and regulatory approval.
+
 ## Overview
 This project implements ladder logic and system documentation for an automated vial filling system for bulk vaccine production. The system covers sterile-environment monitoring, HVAC purge, automated filling (20-vial batches), capping, sealing, leakage inspection, washing, drying, labeling and packaging counters.
 
@@ -18,24 +21,15 @@ This project implements ladder logic and system documentation for an automated v
 See repository root for:
 - `flowchart.svg` — vertical process flowchart
 - `ladder_logic/` — ladder screenshots & tag lists
-- `io_list.csv` — I/O mapping
 - `docs/` — test plan and safety notes
 - `simulation/demo.mp4` — optional process demo
-
-## I/O examples
-`I0.0` — Start Button  
-`Q0.1` — Conveyor Motor  
-(See `io_list.csv` for complete mapping)
 
 ## How to view
 - Flowchart: open `flowchart.svg`
 - Ladder logic: view `ladder_logic/ladder_screenshots/`
 
 ## Design assumptions & safety
-See `docs/safety_assumptions.md`. Important: real vaccine production requires regulatory specs which are **not** provided here — this is a training simulation only.
-
-## License
-MIT License — see `LICENSE`
+See `safety_assumptions.md`.
 
 ## Contact
 Author: Girish Thammadahalli Maruhti. 
