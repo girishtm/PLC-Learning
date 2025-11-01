@@ -6,30 +6,30 @@ Validate sequence correctness, I/O mapping, counters, reject logic and emergency
 ## Tests
 1. **Startup & Purge**
    - Simulate `Start_Button` pressed.
-   - Verify HVAC_Coil (Q0.0) turns ON for 10 minutes.
+   - Verify HVAC_Coil turns ON for 10 minutes.
    - Verify microbe/temp/humidity sensors must report OK before continuing (simulate OK=true).
 
 2. **Line Pressure**
-   - Confirm `Pumps` (Q0.2) start and reach line pressure (simulate pressure OK via a boolean flag).
+   - Confirm `Pumps` start and reach line pressure (simulate pressure OK via a boolean flag).
 
 3. **Robot Loading**
-   - Simulate `Robot_Loader` (Q0.3) performing load; verify dosing chamber full flag.
+   - Simulate `Robot_Loader` performing load; verify dosing chamber full flag.
 
 4. **Filling Batch (20)**
    - Simulate vials on conveyor (Vial_Present_Sensor triggers).
-   - Start conveyor (Q0.1) and stop at filling station.
-   - Verify `Filler_Valves_Bank` (Q0.5) triggers and fills exactly 20 vials (batch counter CT0 increments to 20).
+   - Start conveyor and stop at filling station.
+   - Verify `Filler_Valves_Bank` triggers and fills exactly 20 vials (batch counter CT0 increments to 20).
 
 5. **Capping & Sealing**
-   - Simulate vacuum gripper (Q0.6) and force sensor I0.1 for tightening.
+   - Simulate vacuum gripper and force sensor I0.1 for tightening.
    - If Force_Sensor_Cap fails, report error and mark vial for rework.
 
 6. **Leakage Inspection**
    - Simulate Camera_Pass true/false.
-   - If false, `Reject_Actuator` (Q0.8) must remove vial.
+   - If false, `Reject_Actuator` must remove vial.
 
 7. **Drying & Labeling**
-   - Verify `Air_Blower` (Q0.9) and `Label_Applicator` (Q0.10) triggers at correct timing.
+   - Verify `Air_Blower` and `Label_Applicator` triggers at correct timing.
 
 8. **Counters**
    - Simulate continuous filling until `Daily_Counter` CT1 reaches configured threshold (e.g., 50,000) to test stop condition.
