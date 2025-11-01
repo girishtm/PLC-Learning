@@ -54,8 +54,8 @@ However, if you have suggestions, improvements, or ideas, feel free to **open an
 
 ## 📬 Contact
 **Author:** Girish Thammadahalli Maruthi  
-📧 [Email](mailto:girishtm44@gmail.com) girishtm44@gmail.com
-🌐 [LinkedIn](https://www.linkedin.com/in/girishtm/)  
+📧 girishtm44@gmail.com
+🌐 [https://www.linkedin.com/in/girishtm/  ](https://www.linkedin.com/in/girishtm/)
 
 ---
 
