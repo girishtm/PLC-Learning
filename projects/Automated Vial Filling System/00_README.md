@@ -29,13 +29,13 @@ It covers critical steps from **sterile environment monitoring** to **packaging*
 
 ## 🧩 File Structure
 | File | Description |
-| `00 README.md` | This documentation file |
-| `01 Safety_Assumptions` | Contains system-level safety assumptions and conditions |
-| `02 Test_Plan` | Detailed plan for testing each PLC logic stage |
-| `03_Flowchart.png` | Process flowchart showing each automation stage |
-| `04_Ladder_Diagram.pdf` | Ladder logic screenshots and tag references |
-| `05_Simulation.md` | Screen recording of simulation in PLC simulator |
-| `06_Simulation_Explanation.md` | Step-by-step explanation of simulation sequence |
+- `00 README.md` | This documentation file |
+- `01 Safety_Assumptions` | Contains system-level safety assumptions and conditions |
+- `02 Test_Plan` | Detailed plan for testing each PLC logic stage |
+- `03_Flowchart.png` | Process flowchart showing each automation stage |
+- `04_Ladder_Diagram.pdf` | Ladder logic screenshots and tag references |
+- `05_Simulation.md` | Screen recording of simulation in PLC simulator |
+- `06_Simulation_Explanation.md` | Step-by-step explanation of simulation sequence |
 
 ---
 
