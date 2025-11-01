@@ -19,10 +19,10 @@ This project implements ladder logic and system documentation for an automated v
 
 ## File structure
 See repository root for:
-- `flowchart.png` — vertical process flowchart
-- `ladder_logic/` — ladder screenshots & tag lists
-- `docs/` — test plan and safety notes
-- `simulation/demo.mp4` — optional process demo
+- `01 Safety_Assumptions` & `02 Test_Plan` — test plan and safety notes
+- `03 Automated Vial Filling System – PLC Process Flow .png` — vertical process flowchart
+- `04 Automated Vial Filling System - Ladder Diagram.pdf` — ladder screenshots & tag lists
+- `05 Automated Vial Filling System - Simulation.mp4` — optional process demo
 
 ## How to view
 - Flowchart: open `flowchart.svg`
