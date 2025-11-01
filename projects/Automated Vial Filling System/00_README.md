@@ -1,41 +1,79 @@
-# Automated Vial Filling System — PLC Project
+# 🧪 Automated Vial Filling System — PLC Project
+
 **Author:** Girish Thammadahlli Maruthi  
 **Course:** PLC Programming Training (Internshala)  
-**Status:** Completed
+**Status:** ✅ Completed  
 
-## Disclaimer: 
-This project is an educational simulation for PLC training only. It is not certified for production or regulatory use. Do not use this design in a live vaccine line without qualified engineering and regulatory approval.
+---
 
-## Overview
-This project implements ladder logic and system documentation for an automated vial filling system for bulk vaccine production. The system covers sterile-environment monitoring, HVAC purge, automated filling (20-vial batches), capping, sealing, leakage inspection, washing, drying, labeling and packaging counters.
+## ⚠️ Disclaimer  
+This project is an **educational PLC simulation** created for training purposes only.  
+It is **not certified for industrial or medical production use**.  
+Do **not** apply this logic or design in live vaccine filling lines without qualified engineering validation and regulatory approval.
 
-## Key features
+---
+
+## 📘 Overview  
+This project simulates an **Automated Vial Filling System** designed for bulk vaccine production.  
+It covers critical steps from **sterile environment monitoring** to **packaging**, representing a compact industrial automation model using **PLC ladder logic**.
+
+### 🔹 System Workflow Includes:
 - Sterile environment monitoring (microbe sensors, temperature, humidity)
-- Automated HVAC purge (10 minutes) and pumps for line pressurization
-- Robot-assisted loading and 20-station parallel filling/capping/sealing
-- Vision-based leakage detection & reject actuator
-- Batch & production counters (20-batch counter; 50,000/day target)
-- I/O mapping, ladder logic screenshots, flowchart, and test plan included
+- Automated **HVAC purge (10 minutes)** and **line pressurization**
+- **Robot-assisted vial loading** into a 20-station filling system
+- **Automated capping, tightening**, and **vision-based leakage detection**
+- **Reject actuator** for faulty vials
+- **Batch & production counters** (20-vial batches; 50,000/day target)
 
-## File structure
-See repository root for:
-- `01 Safety_Assumptions` & `02 Test_Plan` — test plan and safety notes
-- `03 Automated Vial Filling System – PLC Process Flow .png` — vertical process flowchart
-- `04 Automated Vial Filling System - Ladder Diagram.pdf` — ladder screenshots & tag lists
-- `05 Automated Vial Filling System - Simulation.mp4` — optional process demo
+---
 
-## How to view
-- Flowchart: open `03 Automated Vial Filling System – PLC Process Flow .png`
-- Ladder logic: view `04 Automated Vial Filling System - Ladder Diagram.pdf`
+## 🧩 File Structure
+| File | Description |
+| `00 README.md` | This documentation file |
+| `01 Safety_Assumptions` | Contains system-level safety assumptions and conditions |
+| `02 Test_Plan` | Detailed plan for testing each PLC logic stage |
+| `03_Flowchart.png` | Process flowchart showing each automation stage |
+| `04_Ladder_Diagram.pdf` | Ladder logic screenshots and tag references |
+| `05_Simulation.md` | Screen recording of simulation in PLC simulator |
+| `06_Simulation_Explanation.md` | Step-by-step explanation of simulation sequence |
 
-## Design assumptions & safety
-See `01 Safety_Assumptions` & `02 Test_Plan`.
+---
 
-## Ladder Logic Simulation
-https://github.com/user-attachments/assets/35695e7e-1995-48d9-b08f-4eba1eb3d663
+## 🧰 Tools Used
+- **PLC Simulator:** Online PLC Ladder Logic Simulator  
+- **PLC Software:** Ladder Logic (IEC 61131-3 Standard)  
+- **Diagram Tools:** Draw.io / Lucidchart  
+- **Documentation:** Markdown, PDF, and PNG assets
 
-## Contact
-Author: Girish Thammadahalli Maruhti. 
-girishtm44@gmail.com
-This folder will contain my PLC project files..
+---
 
+## ▶️ Ladder Logic Simulation
+[Watch the Simulation Video](https://github.com/user-attachments/assets/35695e7e-1995-48d9-b08f-4eba1eb3d663)
+
+This video demonstrates the real-time logic sequence in the PLC simulator:
+1. **Startup & System Purge**
+2. **Sterile Environment Checks**
+3. **Line Pressurization & Valve Control**
+4. **Vial Loading & Filling**
+5. **Capping & Sealing**
+6. **Leak Inspection & Reject Handling**
+7. **Batch Completion & Counter Increment**
+
+---
+
+## 🧠 Design Assumptions & Safety
+Refer to:  
+- `01 Safety_Assumptions.md` → Operator and hardware safety measures  
+- `02 Test_Plan.md` → Verification steps for each ladder segment  
+
+---
+
+## 📫 Contact
+**Author:** Girish Thammadahlli Maruthi  
+📧 Email: [girishtm44@gmail.com](mailto:girishtm44@gmail.com)  
+📂 Repository: [PLC-Learning](https://github.com/girishtm/PLC-Learning)
+
+---
+
+> _“Automation is not just about control — it’s about precision, safety, and consistency.”_  
+> — *Girish Thammadahlli Maruthi*
