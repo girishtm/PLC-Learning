@@ -25,11 +25,11 @@ See repository root for:
 - `05 Automated Vial Filling System - Simulation.mp4` — optional process demo
 
 ## How to view
-- Flowchart: open `flowchart.svg`
-- Ladder logic: view `ladder_logic/ladder_screenshots/`
+- Flowchart: open `03 Automated Vial Filling System – PLC Process Flow .png`
+- Ladder logic: view `04 Automated Vial Filling System - Ladder Diagram.pdf`
 
 ## Design assumptions & safety
-See `safety_assumptions.md`.
+See `01 Safety_Assumptions` & `02 Test_Plan`.
 
 ## Ladder Logic Simulation
 https://github.com/user-attachments/assets/35695e7e-1995-48d9-b08f-4eba1eb3d663
