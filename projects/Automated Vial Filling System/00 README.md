@@ -19,7 +19,7 @@ This project implements ladder logic and system documentation for an automated v
 
 ## File structure
 See repository root for:
-- `flowchart.svg` — vertical process flowchart
+- `flowchart.png` — vertical process flowchart
 - `ladder_logic/` — ladder screenshots & tag lists
 - `docs/` — test plan and safety notes
 - `simulation/demo.mp4` — optional process demo
